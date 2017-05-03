@@ -1,4 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Amarante|Crimson+Text|Handlee);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans|Roboto);
+
+body {
+    margin-top: 24px;
+    font-family:'Nunito Sans',sans-serif;
+}
 
 .center {
     text-align: center;
@@ -6,39 +11,30 @@
     margin: 0 auto;
 }
 
+.logo {
+    display: block;
+    margin: auto;
+    width: 80%;
+    max-width: 960px;
+}
+
 .container {
     width: 85%;
     max-width: 960px;
-    margin: 0 auto 0 auto;
-    padding-left: 12%;
-}
-
-li {
-    color: black;
-}
-
-img {
-    border: #42210b solid 3px;
+    margin: auto;
 }
 
 img#rating {
+    border: #42210b solid 3px;
     float:right;
     margin-bottom: 20px;
     border: none;
 }
 
-h4 {
-    font-size: 1.5em
-}
-
-h1 {
-    font-size: 48pt;
-    margin: 75px;
-    color: #8C3541;
-}
-
-h4 {
+h2 {
     color: #42210b;
+    font-variant: small-caps;
+    font-family: 'Roboto', serif;
 }
 
 #play-button {
@@ -62,12 +58,3 @@ h4 {
     float:right;
 }
 
-body {
-    background: url("page.png") fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family:'Crimson Text',serif;
-    font-size: large;
-}
