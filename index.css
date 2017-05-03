@@ -25,7 +25,6 @@ body {
 }
 
 img#rating {
-    border: #42210b solid 3px;
     float:right;
     margin-bottom: 20px;
     border: none;
@@ -38,20 +37,11 @@ h2 {
 }
 
 #play-button {
-    background: #F0C500;
+    background: #8bc34a;
     border: 2px #008868 outset;
-    font-family: Amarante, serif;
     font-size: 18pt;
     padding: 12pt;
-}
-
-.action-button:hover {
-    background: #DAA89B;
-}
-
-.action-button:active {
-    background: #F0C500;
-    border-style: solid;
+    margin-top: 24px;
 }
 
 .right {
